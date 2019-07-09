@@ -1,0 +1,20 @@
+<nav class="navbar">
+    <div class="container">
+        <a href="/" class="brand">{{ .Site.Title }}</a>
+
+        <input type="checkbox" class="hidden" id="nav">
+        <label for="nav" class="nav-btn">
+            <i></i>
+            <i></i>
+            <i></i>
+        </label>
+        <div class="nav-wrapper">
+            <ul class="nav-list">
+                {{ range .Site.Menus.main }}
+                {{ $text := print .Name | safeHTML }}
+                <li class="nav-item"><a href="{{ .URL }}" class="nav-link">{{ $text }}</a></li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,52 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Sri Aspari"
+metadataformat = "yaml"
+# theme = "custom-theme"
+
+[params]
+    name = "Sri Aspari"
+    professional = "Wanna be a Web Developer"
+
+[params.social]
+    a-facebook-official = "//facebook.com/ari.aspari"
+    b-twitter-square  = "//twitter.com/siarie_"
+    c-github-square   = "//github.com/siarie"
+    d-telegram = "//t.me/siarie"
+    e-mail   = "sriaspari@gmail.com"
+    f-rss     = "/rss.xml"
+
+
+[permalinks]
+    blog = "story/:filename/"
+    # pages = "/:filename.html"
+
+
+[menu]
+    # [[menu.main]]
+    #     name    = "home"
+    #     pre     = "home"
+    #     url     = "/"
+    #     weight  = 1
+    [[menu.main]]
+        name    = "story"
+        pre     = "story"
+        url     = "/story/"
+        weight  = 2
+
+    [[menu.main]]
+        name    = "portofolio"
+        pre     = "portofolio"
+        url     = "/portofolio/"
+        weight  = 3
+
+    [[menu.main]]
+        name    = "about"
+        pre     = "about"
+        url     = "/about/"
+        weight  = 1
+    [[menu.main]]
+        name    = "community"
+        pre     = "community"
+        url     = "/community/"
+        weight  = 4

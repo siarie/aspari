@@ -1,0 +1,17 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ .Title }}</title>
+    {{ $favicon := "img/INCOGNITO.ico" | absURL }}
+    {{ $reset := "css/reset.css" | absURL }}
+    {{ $style := "css/test.css" | absURL }}
+    {{ $mobile := "css/mobile.css" | absURL }}
+    {{ $fontawesome := "css/font-awesome.min.css" | absURL }}
+
+    <link rel="shortcut icon" href="{{ $favicon }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ $reset }}">
+    <link rel="stylesheet" href="{{ $style }}">
+    <link rel="stylesheet" href="{{ $mobile }}">
+    <link rel="stylesheet" href="{{ $fontawesome }}">
+</head>
