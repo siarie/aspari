@@ -1,0 +1,14 @@
+[friends]
+  [[friends.list]]
+    name="Nanda Oktavera"
+    title="Android and Web Stuff"
+    avatar="https://okitavera.me/assets/img/me.png"
+    website="//okitavera.me"
+    bg="//localhost:1313/img/okitavera.png"
+
+  [[friends.list]]
+    name="Epsi RNS"
+    title="Open Source Enthusiast"
+    avatar="https://epsi-rns.gitlab.io/assets/site/images/epsi-bulat.png"
+    website="//epsi-rns.gitlab.io"
+    bg="//localhost:1313/img/epsi.png"

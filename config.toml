@@ -9,11 +9,11 @@ metadataformat = "yaml"
     professional = "Wanna be a Web Developer"
 
 [params.social]
-    a-facebook-official = "//facebook.com/ari.aspari"
-    b-twitter-square  = "//twitter.com/siarie_"
-    c-github-square   = "//github.com/siarie"
-    d-telegram = "//t.me/siarie"
-    e-mail   = "sriaspari@gmail.com"
+    a-facebook = "//facebook.com/ari.aspari"
+    b-twitter  = "//twitter.com/siarie_"
+    c-github   = "//github.com/siarie"
+    d-paper-plane-o = "//t.me/siarie"
+    e-envelope-o   = "sriaspari@gmail.com"
     f-rss     = "/rss.xml"
 
 
