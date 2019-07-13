@@ -4,11 +4,25 @@
     title="Android and Web Stuff"
     avatar="https://okitavera.me/assets/img/me.png"
     website="//okitavera.me"
-    bg="//localhost:1313/img/okitavera.png"
+    ss="ss/okitavera.png"
 
   [[friends.list]]
     name="Epsi RNS"
     title="Open Source Enthusiast"
     avatar="https://epsi-rns.gitlab.io/assets/site/images/epsi-bulat.png"
     website="//epsi-rns.gitlab.io"
-    bg="//localhost:1313/img/epsi.png"
+    ss="ss/epsi.png"
+  
+  [[friends.list]]
+    name="Aflasio"
+    title="A hobby artist and FLOSS user from Indonesia"
+    avatar="//aflasio.art/static/d4fdfca7f7e3072c5dd4d3ee26ce7d7b/62156/profile.jpg"
+    website="//aflasio.art/"
+    ss="ss/aflasio.png"
+  
+  [[friends.list]]
+    name="Yunanda Prabowo"
+    title="Wanna be a Pythonist"
+    avatar="//ypraw.github.io/static/avatar-492ed88ed27cba96afe4309daf844026.jpg"
+    website="//ypraw.github.io"
+    ss="ss/ypraw.png"

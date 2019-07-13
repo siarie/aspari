@@ -1,14 +1,15 @@
 {{ define "main" }}
 
-{{ $bg := "img/okitavera.png" | absURL }}
+
 
 <div class="row mt-2">
     {{ range .Site.Data.friendlist.friends.list}}
+    {{ $bg := .ss | absURL }}
     <div class="col">
       
         <div class="friend-list">
           <div class="img-container">
-            <img src="{{.bg}}" alt="" class="img-banner">
+            <img src="{{.ss | absURL }}" alt="" class="img-banner">
             <img src="{{.avatar}}" alt="" class="profile-img">
           </div>
           <div class="friend-info">

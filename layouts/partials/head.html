@@ -7,12 +7,12 @@
     {{ $reset := "css/reset.css" | absURL }}
     {{ $style := "css/test.css" | absURL }}
     {{ $mobile := "css/mobile.css" | absURL }}
+    {{ $prism := "css/prism.css" | absURL }}
     {{ $fontawesome := "css/font-awesome.min.css" | absURL }}
 
     <link rel="shortcut icon" href="{{ $favicon }}" type="image/x-icon">
-    <!-- <link rel="stylesheet" href="{{ $reset }}"> -->
     <link rel="stylesheet" href="{{ $style }}">
+    <link rel="stylesheet" href="{{ $prism }}">
     <link rel="stylesheet" href="{{ $mobile }}">
     <link rel="stylesheet" href="{{ $fontawesome }}">
-    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 </head>
