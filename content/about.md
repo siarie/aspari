@@ -4,7 +4,7 @@ date: 2019-07-07T06:18:03+07:00
 tags: []
 categories: []
 draft: false
-series: ""
+layout: "community"
 ---
 
 <div class="about">
