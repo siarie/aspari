@@ -1,29 +1,17 @@
 {{ define "main" }}
-
-{{ $bg := "img/okitavera.png" | absURL }}
-
-<div class="row mt-2">
-    {{ range .Site.Data.friendlist.friends.list}}
-    <div class="col">
-      
-        <div class="friend-list">
-          <div class="img-container">
-            <img src="{{.bg}}" alt="" class="img-banner">
-            <img src="{{.avatar}}" alt="" class="profile-img">
-          </div>
-          <div class="friend-info">
-            <div class="title">
-              <p>{{.name}}</p>
-              <span>{{.title}}</span>
-            </div>
-            <div class="visit">
-              <a href="{{.website}}" target="_blank" rel="noopener noreferrer">view more</a>
-            </div>
-          </div>
-        </div>
-      
-    </div>
-    {{ end }}
-</div>
+<div class="row box mt-2">
+  <div class="col _10">
+      <!-- <h2 class="page-title">This is my {{ .Title }}</h2> -->
+      <div class="content">
+          <h2 class="about-title">This Site is powered by</h2>
+          <img src="https://www.netlify.com/img/press/logos/full-logo-light.svg" alt="Netlify" width="200px">
+          <img src="https://d33wubrfki0l68.cloudfront.net/30790d6888bd8af863fb2b5c33a7f337cdbda243/4e867/images/hugo-logo-wide.svg" alt="Hugo" width="200px">
+          <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" alt="Hugo" width="200px">
+          <!-- <p class="about-text">
+            siarie adalah nama singkatan dari nama saya "Sri Aspari"
+          </p> -->
+      </div>
+  </div>
+  </div>
 
 {{ end }}
