@@ -17,7 +17,7 @@ pygmentsUseClasses=true
     c-github   = "//github.com/siarie"
     d-paper-plane-o = "//t.me/siarie"
     e-envelope-o   = "mailto:sriaspari@gmail.com"
-    f-rss     = "/rss.xml"
+    # f-rss     = "/rss.xml"
 
 
 [permalinks]
