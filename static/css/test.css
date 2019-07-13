@@ -302,6 +302,7 @@ pre {
 
 .links ul {
   list-style: none;
+  padding: 0;
 }
 
 .links ul li {
@@ -316,7 +317,7 @@ pre {
   text-decoration: none;
   color: crimson;
   font-size: 1.2rem;
-  padding: 0;
+  
 }
 
 /* ---NAVIGATION--- */
