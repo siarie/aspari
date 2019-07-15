@@ -1,5 +1,11 @@
 {{ $prismjs := "js/prism.js" | absURL }}
+{{ $feather := "js/feather.js" | absURL }}
+<script src="{{ $feather }}"></script>
+<script>
+feather.replace()
+</script>
 <script src="{{ $prismjs }}"></script>
+
 <script>
 (function () {
 

@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<div class="flex">
+<!-- <div class="flex"> -->
     <div class="box align-center">
         <div class="image-box">
             <img src="img/avatar1.jpg" alt="{{ .Title }}">
@@ -12,7 +12,8 @@
             <ul class="social">
                 {{ range $name, $link := .Site.Params.social }}
                 {{ $displaName := slicestr $name 2}}
-                <li><a href="{{ $link | safeURL}}"><i class="fa fa-{{ $displaName }} fa-lg"></i></a></li>
+                <!-- <li><a href="{{ $link | safeURL}}"><i class="fa fa-{{ $displaName }} fa-lg"></i></a></li> -->
+                <li><a href="{{ $link | safeURL}}"><i data-feather="{{ $displaName }}"></i></a></li>
                 {{ end }}
             </ul>
             <!-- <hr> -->
@@ -24,6 +25,6 @@
             </ul> -->
         </div>
     </div>
-</div>
+<!-- </div> -->
 
 {{ end }}

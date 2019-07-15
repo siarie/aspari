@@ -12,11 +12,11 @@ pygmentsUseClasses=true
     professional = "Wanna be a Web Developer"
 
 [params.social]
-    a-facebook = "//facebook.com/ari.aspari"
+    # a-facebook = "//facebook.com/ari.aspari"
     b-twitter  = "//twitter.com/siarie_"
     c-github   = "//github.com/siarie"
-    d-paper-plane-o = "//t.me/siarie"
-    e-envelope-o   = "mailto:sriaspari@gmail.com"
+    d-send = "//t.me/siarie"
+    e-mail   = "mailto:sriaspari@gmail.com"
     # f-rss     = "/rss.xml"
 
 

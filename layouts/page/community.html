@@ -5,9 +5,9 @@
 <div class="row mt-2">
     {{ range .Site.Data.friendlist.friends.list}}
     {{ $bg := .ss | absURL }}
-    <div class="col">
+    <div class="col-lg-4 col-sm-6 col-xs-12">
       
-        <div class="friend-list">
+        <div class="card" style="margin:5px;">
           <div class="img-container">
             <img src="{{.ss | absURL }}" alt="" class="img-banner">
             <img src="{{.avatar}}" alt="" class="profile-img">
