@@ -268,7 +268,8 @@
 
 @media only screen and (min-width: 48em) {
   .container {
-    width: 49rem;
+    width: 95%;
+    /* width: 49rem; */
   }
 
   .col-sm,
@@ -499,7 +500,8 @@
 
 @media only screen and (min-width: 64em) {
   .container {
-    width: 65rem;
+    width: 95%;
+    /* width: 65rem; */
   }
 
   .col-md,
@@ -730,7 +732,8 @@
 
 @media only screen and (min-width: 75em) {
   .container {
-    width: 76rem;
+    /* width: 76rem; */
+    width: 80%;
   }
 
   .col-lg,
