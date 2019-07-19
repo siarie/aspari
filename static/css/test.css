@@ -122,22 +122,25 @@ blockquote {
 .friend-info .title {
   text-align: center;
   color: crimson;
-  padding-bottom: 35px;
 }
 .friend-info .title p {
   font-size: 2rem;
   font-weight: 700;
-  margin: 10px auto;
-}
-.friend-info .title span {
-  font-weight: 400;
-  font-size: 1.2rem;
-  color: #444444;
+  margin: 0;
 }
 .friend-info .visit{
   /* border: 2px solid crimson; */
   text-align: center;
-
+}
+.friend-info .social{
+  list-style: none;
+  text-align: center;
+  color : #dc143c;
+  padding: 0;
+}
+.friend-info .social li{
+  display: inline-block;
+  margin: 10px 3px;
 }
 .friend-info .visit a{
   border-radius: 2px;
@@ -155,51 +158,6 @@ blockquote {
   background: #f57;
   color: #fff;
 }
-
-
-.friend-list>.header {
-  overflow: hidden;
-  /* background:url('//localhost:1313/img/okitavera.png'); */
-  background-size: cover;
-}
-.friend-list>.header .bg{
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-.friend-list>.header .avatar{
-  margin: 0;
-  padding: 0;
-  width: 30%;
-  border-radius: 50%;
-  margin-top: -58px;
-
-}
-
-.friend-list>.info h2{
-  font-size: 1.7rem;
-}
-
-.friend-list>.info span{
-  background: crimson;
-  padding: 5px;
-  font-size: .8rem;
-  color: #FFFFFF;
-  border-radius: 50px;
-}
-
-.friend-list>.info a{
-  background: crimson;
-  padding: 10px;
-  font-size: 1.2rem;
-  color: #FFFFFF;
-  border-radius: 2px;
-}
-
-
-
-
 
 .card {
   /* width: 400px; */
