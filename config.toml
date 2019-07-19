@@ -49,7 +49,7 @@ pygmentsUseClasses=true
         url     = "/about/"
         weight  = 3
     [[menu.main]]
-        name    = "community"
-        pre     = "community"
-        url     = "/community/"
+        name    = "Friends"
+        pre     = "friends"
+        url     = "/friends/"
         weight  = 4

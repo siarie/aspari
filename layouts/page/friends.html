@@ -13,10 +13,11 @@
             <img src="{{.avatar}}" alt="" class="profile-img">
           </div>
           <div class="friend-info">
-            <div class="title">
-              <p>{{.name}}</p>
-              <span>{{.title}}</span>
-            </div>
+            <ul>
+              {{ range $link, $name := .list.social }}
+              <li><a href="{{ $link | safeURL }}"><i data-feather="{{ $name }}"></i> hello</a></li>
+              {{ end }}
+            </ul>
             <div class="visit">
               <a href="{{.website}}" target="_blank" rel="noopener noreferrer">view more</a>
             </div>

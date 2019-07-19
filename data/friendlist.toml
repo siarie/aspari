@@ -1,10 +1,13 @@
 [friends]
   [[friends.list]]
     name="Nanda Oktavera"
-    title="Android and Web Stuff"
     avatar="https://okitavera.me/assets/img/me.png"
     website="//okitavera.me"
     ss="ss/okitavera.png"
+    sosmed =[
+      "twitter"="//twitter.com/okitavera"
+      "github"="//github.com/okitavera"
+    ]
 
   [[friends.list]]
     name="Epsi RNS"
@@ -26,3 +29,10 @@
     avatar="//ypraw.github.io/static/avatar-492ed88ed27cba96afe4309daf844026.jpg"
     website="//ypraw.github.io"
     ss="ss/ypraw.png"
+
+  [[friends.list]]
+    name="BanditHijo"
+    title="Wanna be a Pythonist"
+    avatar="//d33wubrfki0l68.cloudfront.net/4cb146f6f279bfb3a7cabc463aa27b5817845380/73aa2/assets/img/logo/logo_author.png"
+    website="//bandithijo.com"
+    ss="ss/bandithijo.png"

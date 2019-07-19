@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab|Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Andika|Flamenco|Harmattan|Imprima|Nova+Slim|Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,700,700i&display=swap');
 *{
   box-sizing: border-box;
 }
@@ -6,9 +8,14 @@ html {
   margin: 0;
   padding: 0;
   /* font-family: 'Inconsolata', monospace; */
-  font-family: 'Poiret One', cursive;
-  /* font-family: 'Josefin Sans', sans-serif; */
+  /* font-family: 'Poiret One', cursive; */
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
   /* font-family: 'Josefin Slab', serif; */
+  /* font-family: 'Nova Slim', cursive; */
+  /* font-family: 'Flamenco', cursive; */
+  /* font-family: 'Quicksand', sans-serif; */
+  /* font-family: 'Andika', sans-serif;  */
   font-size: 10px;
 }
 body {
@@ -30,9 +37,8 @@ body {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline double #dc143c;
   color: black;
-  font-weight: bold;
 }
 a:hover {
   color: crimson;
@@ -41,6 +47,12 @@ a:hover {
 pre {
   white-space:pre-wrap !important;
   overflow: auto;
+}
+
+blockquote {
+  background: rgba(220,60,60, .05);
+  padding: 1px 10px;
+  border-left: 4px solid #dc143c;
 }
 
 .flex {
@@ -137,6 +149,7 @@ pre {
   transition: all 1s ease;
   letter-spacing: .5;
   background: crimson;
+  text-decoration: none;
 }
 .friend-info .visit a:hover{
   background: #f57;
@@ -360,6 +373,7 @@ pre {
   position: sticky;
   top: 0;
   z-index: 9999;
+  font-family: 'Poiret One', cursive;
 }
 
 .brand {
@@ -441,7 +455,7 @@ pre {
 .content {
   line-height: 1.6;
   margin-top: 2.5rem;
-  font-size: 1.5rem;
+  font-size: 1.65rem;
   padding: 3rem;
   padding-top: 0 !important;
 }
