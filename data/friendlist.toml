@@ -1,38 +1,50 @@
-[friends]
-  [[friends.list]]
-    name="Nanda Oktavera"
-    avatar="https://okitavera.me/assets/img/me.png"
-    website="//okitavera.me"
-    ss="ss/okitavera.png"
-    sosmed =[
-      "twitter"="//twitter.com/okitavera"
-      "github"="//github.com/okitavera"
-    ]
+[[friends]]
+  name="Nanda Oktavera"
+  avatar="https://okitavera.me/assets/img/me.png"
+  website="//okitavera.me"
+  ss="ss/okitavera.png"
+  [friends.social]
+    a-twitter = "//twitter.com/okitavera"
+    b-github = "//github.com/okitavera"
+    c-mail = "codeharuka.yusa@gmail.com"
 
-  [[friends.list]]
-    name="Epsi RNS"
-    title="Open Source Enthusiast"
-    avatar="https://epsi-rns.gitlab.io/assets/site/images/epsi-bulat.png"
-    website="//epsi-rns.gitlab.io"
-    ss="ss/epsi.png"
-  
-  [[friends.list]]
-    name="Aflasio"
-    title="A hobby artist and FLOSS user from Indonesia"
-    avatar="//aflasio.art/static/d4fdfca7f7e3072c5dd4d3ee26ce7d7b/62156/profile.jpg"
-    website="//aflasio.art/"
-    ss="ss/aflasio.png"
-  
-  [[friends.list]]
-    name="Yunindyo Prabowo"
-    title="Wanna be a Pythonist"
-    avatar="//ypraw.github.io/static/avatar-492ed88ed27cba96afe4309daf844026.jpg"
-    website="//ypraw.github.io"
-    ss="ss/ypraw.png"
+[[friends]]
+  name="Epsi RNS"
+  avatar="https://epsi-rns.gitlab.io/assets/site/images/epsi-bulat.png"
+  website="//epsi-rns.gitlab.io"
+  ss="ss/epsi.png"
+  [friends.social]
+    a-send = "//t.me/cahgentoo"
+    b-github = "//github.com/epsi-rns"
+    c-gitlab = "//gitlab.com/epsi-rns"
 
-  [[friends.list]]
-    name="BanditHijo"
-    title="Wanna be a Pythonist"
-    avatar="//d33wubrfki0l68.cloudfront.net/4cb146f6f279bfb3a7cabc463aa27b5817845380/73aa2/assets/img/logo/logo_author.png"
-    website="//bandithijo.com"
-    ss="ss/bandithijo.png"
+[[friends]]
+  name="Aflasio"
+  avatar="//aflasio.art/static/d4fdfca7f7e3072c5dd4d3ee26ce7d7b/62156/profile.jpg"
+  website="//aflasio.art/"
+  ss="ss/aflasio.png"
+  [friends.social]
+    a-twitter = "//twitter.com/aflasio"
+    b-youtube = "//www.youtube.com/channel/UCAcm_Bk9FS4niXTNHZN21QQ"
+    c-mail = "sira.argia@gmail.com"
+
+[[friends]]
+  name="Yunindyo Prabowo"
+  avatar="//ypraw.github.io/static/avatar-492ed88ed27cba96afe4309daf844026.jpg"
+  website="//ypraw.github.io"
+  ss="ss/ypraw.png"
+  [friends.social]
+    a-facebook = "//facebook.com/Yunindyoprabowo"
+    b-send = "//t.me/ypraw"
+    c-twitter = "//twitter.com/yunindyo"
+    d-github = "//github.com/ypraw"
+
+[[friends]]
+  name="BanditHijo"
+  avatar="//d33wubrfki0l68.cloudfront.net/4cb146f6f279bfb3a7cabc463aa27b5817845380/73aa2/assets/img/logo/logo_author.png"
+  website="//bandithijo.com"
+  ss="ss/bandithijo.png"
+  [friends.social]
+    a-twitter = "//twitter.com/bandithijo"
+    b-github = "//github.com/bandithijo"
+    c-gitlab = "//gitlab.com/bandithijo"

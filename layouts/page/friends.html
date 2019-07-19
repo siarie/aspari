@@ -3,7 +3,7 @@
 
 
 <div class="row mt-2">
-    {{ range .Site.Data.friendlist.friends.list}}
+    {{ range .Site.Data.friendlist.friends}}
     {{ $bg := .ss | absURL }}
     <div class="col-lg-4 col-sm-6 col-xs-12">
       
@@ -13,9 +13,13 @@
             <img src="{{.avatar}}" alt="" class="profile-img">
           </div>
           <div class="friend-info">
-            <ul>
-              {{ range $link, $name := .list.social }}
-              <li><a href="{{ $link | safeURL }}"><i data-feather="{{ $name }}"></i> hello</a></li>
+            <div class="title">
+              <p>{{.name}}</p>
+            </div>
+            <ul class="social">
+              {{ range $name, $link := .social }}
+              {{ $icon := slicestr $name 2}}
+              <li><a href="{{ $link | safeURL }}"><i data-feather="{{ $icon }}"></i></a></li>
               {{ end }}
             </ul>
             <div class="visit">
