@@ -10,6 +10,8 @@ pygmentsUseClasses=true
 [params]
     name = "Sri Aspari"
     professional = "Wanna be a Web Developer"
+    talkyardServerUrl = "https://comments-for-siarie-me.talkyard.net"
+    talkyardScriptUrl = "https://c1.ty-cdn.net/-/talkyard-comments.min.js"
 
 [params.social]
     # a-facebook = "//facebook.com/ari.aspari"
