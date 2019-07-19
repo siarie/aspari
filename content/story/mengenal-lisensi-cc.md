@@ -4,14 +4,15 @@ date: 2019-07-16T00:34:20+07:00
 tags: [
     'license','creativecommons'
 ]
-categories: []
+categories: ['Events']
 draft: false
 series: "default"
 ---
 
 Assalamu'alaikum wr. wb.
 
-Berhubung Creative Commons Indonesia dan Gimpscape Indonesia mengadakan kontes bertemakan Creative Commons, saya akan sedikit menjelaskan sedikit tentang lisensi tersebut. Saya pun sebenarnya masih kurang mengerti tentang lisensi tersebut, dulu yang saya tau itu adalah lisensi bebas dimana kita bebas menggunakkannya dan membagikannya. dan ternyata "Ooh.. ternyata ada aturannya juga yah..". Yups! memang ada aturan dalam menggunakan lisensi tersebut. silahkan simak coretan saya dibawah ini. (kalo males sama ocehan saya yang ini bisa langsung ke intinya aja kok...XD).
+Artikel ini saya buat karena kebetulan saya tertarik dengan Kontes yang diadakan oleh [Creative Commons Indonesia](http://creativecommons.or.id/) dan [Gimpscape Indonesia](https://gimpscape.org/) yang bertemakan Creative Commons detailnya bisa dilihat [disini](https://s.id/aturan-kontes).  
+Saya akan sedikit menjelaskan sedikit tentang lisensi tersebut. Saya pun sebenarnya masih kurang mengerti tentang lisensi tersebut, yang saya tau itu adalah lisensi bebas dimana kita bebas menggunakkannya dan membagikannya. dan ternyata "Ooh.. ternyata ada aturannya juga yah..". Yups! memang benar kita bebas menggunakannya dan membagikannya, tapi tahukah kalian ada beberapa bentuk lisensi yang harus kita ketahui sebelum menggunakan lisensi tersebut. silahkan simak coretan saya dibawah ini. (kalo males sama ocehan saya yang ini bisa langsung ke intinya aja kok...XD).
 
 >**Note:** Tulisan ini tidak menjamin kalian akan paham sepenuhnya tentang creative commons. jika masih belum paham dengan apa yg saya jelaskan silahkan mencari sumber lain.
 
