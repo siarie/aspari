@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "Sri Aspari"
 metadataformat = "yaml"
 
+disqusShortname = "siarie"
+
 PygmentsCodeFences = true
 pygmentsUseClasses=true
 # PygmentsStyle      = "monokai"
