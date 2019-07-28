@@ -428,9 +428,6 @@ blockquote {
   font-weight: 700;
   /* text-align: center; */
 }
-.about>.intro {
-  display: flex;
-}
 @media (max-width:600px){
   .about>.intro {
     display: block;
@@ -442,41 +439,4 @@ blockquote {
   height: auto;
   border-radius: 50%;
   margin-right: 30px;
-}
-
-
-
-
-
-
-
-
-
-
-/* ---GRID--- */
-/* .row {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  width: 100%;
-}
-.col {
-  flex-basis: 33.33%;
-  -ms-flex: auto;
-  width: auto;
-  max-width: 1000px;
-}
-.col._10{
-  flex-basis: 100%;
-} */
-/* @media (max-width:800px) {
-  .col {
-    flex:1;
-  }
-} */
-
-
-.about-title {
-  font-weight: 500;
-  text-align: center;
 }
