@@ -3,7 +3,8 @@
 <!-- <div class="flex"> -->
     <div class="box align-center">
         <div class="image-box">
-            <img src="img/siarie.jpg" alt="{{ .Title }}">
+                {{ $avatar := "img/siarie.jpg" | absURL }}
+            <img src="{{ $avatar }}" alt="{{ .Title }}">
         </div>
         <div class="text">
             <h2>{{ .Site.Params.name }}<br><span>{{ .Site.Params.professional }}</span></h2>
