@@ -237,18 +237,21 @@ blockquote {
   color: #000000;
   font-weight: 700;
   font-size: 2rem;
+  margin: 10px 0;
+  padding: 0;
 }
 .profile-card .social {
   padding: 0;
-  margin: 0;
+  margin: 3px 0;
   list-style: none;
 }
 .profile-card .social li{
   display: inline;
+  margin: 2px;
 }
 .profile-card .social a{
   text-decoration: none;
-  color: #5A5A5A;
+  color: #505050;
 }
 .profile-card button {
   font-family: 'Josefin Sans', sans-serif;
