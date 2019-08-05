@@ -155,47 +155,6 @@ blockquote {
 }
 /* /HOME */
 
-/* PAGES */
-.page-title {
-  text-align: center;
-  font-size: 1.8rem;
-  font-weight: 700;
-  border-bottom: 1px solid #ececec;
-  padding: 1.5rem;
-}
-.content-list {
-  line-height: 1.3;
-  font-size: 1.5rem;
-}
-.content-list ul {
-  list-style: disc inside;
-}
-.content-list ul li:nth-child(1){
-  color: #F08080;
-}
-.content-list ul li:nth-child(2){
-  color: #90EE90;
-}
-.content-list ul li:nth-child(3){
-  color: #87CEFA;
-}
-.content-list ul li:nth-child(4){
-  color: #FFD700;
-}
-.content-list ul li:nth-child(5){
-  color: #800080;
-}
-.content {
-  line-height: 1.6;
-  margin-top: 2.5rem;
-  font-size: 1.65rem;
-  padding: 3rem;
-  padding-top: 0 !important;
-}
-
-
-
-
 /* ELEMENT */
 
 /* -CARD- */
@@ -235,7 +194,7 @@ blockquote {
   width: 100%;
 }
 .profile-card .name {
-  color: #000000;
+  color: #DC143C;
   font-weight: 700;
   font-size: 2rem;
   margin: 10px 0;
