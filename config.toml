@@ -28,11 +28,6 @@ pygmentsUseClasses=true
 
 
 [menu]
-    # [[menu.main]]
-    #     name    = "home"
-    #     pre     = "home"
-    #     url     = "/"
-    #     weight  = 1
     [[menu.main]]
         name    = "story"
         pre     = "story"

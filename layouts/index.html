@@ -1,13 +1,19 @@
 {{ define "main" }}
 
 <!-- <div class="flex"> -->
-    <div class="box align-center">
+    <div class="box text-center">
         <div class="image-box">
                 {{ $avatar := "img/siarie.jpg" | absURL }}
             <img src="{{ $avatar }}" alt="{{ .Title }}">
         </div>
         <div class="text">
             <h2>{{ .Site.Params.name }}<br><span>{{ .Site.Params.professional }}</span></h2>
+        </div>
+        <div class="m-1">
+            <a href="story" class="btn btn-default">Story</a>
+            <a href="about" class="btn btn-default">About</a>
+            <a href="portofolio" class="btn btn-default">Portofolio</a>
+            <a href="friends" class="btn btn-default">Friends</a>
         </div>
         <div class="links">
             <ul class="social">

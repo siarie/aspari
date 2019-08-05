@@ -3,33 +3,22 @@
 
 
 <div class="row mt-2">
-    {{ range .Site.Data.friendlist.friends}}
-    {{ $bg := .ss | absURL }}
-    <div class="col-lg-4 col-sm-6 col-xs-12">
-      
-        <div class="card" style="margin:5px;">
-          <div class="img-container">
-            <img src="{{.ss | absURL }}" alt="" class="img-banner">
-            <img src="{{.avatar}}" alt="" class="profile-img">
-          </div>
-          <div class="friend-info">
-            <div class="title">
-              <p>{{.name}}</p>
-            </div>
-            <ul class="social">
-              {{ range $name, $link := .social }}
-              {{ $icon := slicestr $name 2}}
-              <li><a href="{{ $link | safeURL }}"><i data-feather="{{ $icon }}"></i></a></li>
-              {{ end }}
-            </ul>
-            <div class="visit">
-              <a href="{{.website}}" target="_blank" rel="noopener noreferrer">view more</a>
-            </div>
-          </div>
-        </div>
-      
+  {{ range .Site.Data.friendlist.friends}}
+  {{ $bg := .ss | absURL }}
+  <div class="col-lg-4 col-sm-6 col-xs-12">
+    <div class="card profile-card">
+      <img src="{{.ss | absURL }}" alt="{{.name}}">
+      <p class="name">{{.name}}</p>
+      <ul class="social">
+        {{ range $name, $link := .social }}
+        {{ $icon := slicestr $name 2 }}
+        <li><a href="{{$link | safeURL}}"><i data-feather="{{ $icon }}"></i></a></li>
+        {{ end }}
+      </ul>
+      <button onclick="window.open('{{.website}}')">View More</button>
     </div>
-    {{ end }}
+  </div>
+  {{ end }}
 </div>
 
 {{ end }}

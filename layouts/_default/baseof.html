@@ -2,7 +2,9 @@
 <html lang="en">
     {{ partial "head.html" . }}
     <body>
+        {{ if not .IsHome }}
         {{ partial "nav.html" . }}
+        {{end}}
         <div class="container">
         {{ block "main" . }}{{ end }}
         </div>
