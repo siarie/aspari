@@ -257,7 +257,7 @@ blockquote {
 .profile-card button {
   font-family: 'Josefin Sans', sans-serif;
   border: none;
-  outline: 0;
+  outline: none;
   display: inline-block;
   padding: 8px;
   color: #FFFFFF;
