@@ -5,7 +5,11 @@
         {{ if not .IsHome }}
         {{ partial "nav.html" . }}
         {{end}}
-        <div class="container">
+        
+        <section class="container">
+            <div class="wrapper">
         {{ block "main" . }}{{ end }}
-        </div>
+            </div>
+        </section>
+   
 {{ partial "footer.html" . }}

@@ -2,9 +2,8 @@
 <div class="row card mt-2">
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
     <div class="header text-center">
-            This is my {{ .Title }}
+        {{ .Title }}
     </div>
-    <!-- <h2 class="page-title">This is my {{ .Title }}</h2> -->
     <div class="body">
         <ul>
             {{ range .Pages.ByPublishDate.Reverse }}

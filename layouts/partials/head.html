@@ -4,17 +4,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ .Title }}</title>
     {{ $favicon := "img/INCOGNITO.ico" | absURL }}
-    {{ $reset := "css/reset.css" | absURL }}
+
+    
     {{ $style := "css/siarie.css" | absURL }}
-    {{ $mobile := "css/mobile.css" | absURL }}
     {{ $flex := "css/flexboxgrid.css" | absURL }}
-    {{ $prism := "css/prism.css" | absURL }}
+    {{ $enligtercss := "css/EnlighterJS.min.css" | absURL }}
     {{ $fontawesome := "css/font-awesome.min.css" | absURL }}
 
     <link rel="shortcut icon" href="{{ $favicon }}" type="image/x-icon">
     <link rel="stylesheet" href="{{ $style }}">
     <link rel="stylesheet" href="{{ $flex }}">
-    <!-- <link rel="stylesheet" href="{{ $prism }}"> -->
-    <!-- <link rel="stylesheet" href="{{ $mobile }}"> -->
+    <!-- Include EnlighterJS Styles -->
+    <link rel="stylesheet" type="text/css" href="{{ $enligtercss }}" />
     
 </head>

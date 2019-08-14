@@ -1,0 +1,17 @@
+{{ define "main" }}
+    {{ range $.Site.Data.portfolio }}
+    <div class="row mt-2">
+        <div class="col-md-4">
+					<img src={{ "img/soon.webp" | absURL }} style="width:100%;border-radius: 5px;box-shadow: 0 .2rem .3rem rgba(0,0,0,.15);">
+				</div>
+				<div class="col-md-8 card p-2" style="font-size: 1.4rem">
+					<h1 class="m-0">{{ .title }}</h1>
+					{{ range $tag := .tag }}
+					&nbsp;<span style="color: #DC143C">#{{ $tag }} </span>
+					{{end}}
+					<p>{{ .description }}</p>
+				</div>
+    </div>
+    {{end}}
+
+{{ end }}
