@@ -19,7 +19,10 @@ body {
 }
 
 .wrapper {
-  flex: 1;
+  /* display: flex; */
+  /* flex: 1; */
+  /* height: 100vmin; */
+  display: block;
 }
 
 .row {
@@ -462,6 +465,10 @@ blockquote {
 
 /* FOOTER */
 footer {
-  position: relative;
-  bottom: 0;
+  /* position: absolute;
+  bottom: 0; */
+  width: 100%;
+  padding:10px;
+  text-align: center;
+  font-size: 1.35rem;
 }

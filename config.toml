@@ -10,6 +10,7 @@ pygmentsUseClasses=true
 # PygmentsStyle      = "monokai"
 
 [params]
+    author = "Sri Aspari"
     name = "Sri Aspari"
     professional = "Wanna be a Web Developer"
 
@@ -34,11 +35,11 @@ pygmentsUseClasses=true
         url     = "/story/"
         weight  = 2
 
-    # [[menu.main]]
-    #     name    = "portofolio"
-    #     pre     = "portofolio"
-    #     url     = "/portofolio/"
-    #     weight  = 3
+    [[menu.main]]
+        name    = "portofolio"
+        pre     = "portofolio"
+        url     = "/portofolio/"
+        weight  = 3
 
     [[menu.main]]
         name    = "about"

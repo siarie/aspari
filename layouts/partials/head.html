@@ -2,19 +2,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{ .Title }}</title>
-    {{ $favicon := "img/INCOGNITO.ico" | absURL }}
-
-    
-    {{ $style := "css/siarie.css" | absURL }}
-    {{ $flex := "css/flexboxgrid.css" | absURL }}
-    {{ $enligtercss := "css/EnlighterJS.min.css" | absURL }}
-    {{ $fontawesome := "css/font-awesome.min.css" | absURL }}
-
-    <link rel="shortcut icon" href="{{ $favicon }}" type="image/x-icon">
-    <link rel="stylesheet" href="{{ $style }}">
-    <link rel="stylesheet" href="{{ $flex }}">
-    <!-- Include EnlighterJS Styles -->
-    <link rel="stylesheet" type="text/css" href="{{ $enligtercss }}" />
-    
+    <meta name="theme-color" content="#DC143C">
+    <title>{{ .Page.Title | default .Site.Title }}</title>
+    <link rel="shortcut icon" href="{{ "img/INCOGNITO.ico" | absURL }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ "css/siarie.css" | absURL }}">
+    <link rel="stylesheet" href="{{ "css/flexboxgrid.css" | absURL }}">
+    <link rel="stylesheet" href="{{ "css/font-awesome.min.css" | absURL }}">
+    <link rel="stylesheet" type="text/css" href="{{ "css/EnlighterJS.min.css" | absURL }}" />
+    {{ partial "meta.html" . }}
 </head>

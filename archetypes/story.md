@@ -4,5 +4,6 @@ date: {{ .Date }}
 tags: []
 categories: []
 draft: false
-series: "getting-started"
+series: "default"
+author: "siarie"
 ---
