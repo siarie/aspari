@@ -1,16 +1,14 @@
 ---
-title: "Getting Started With Svelte 3"
-date: 2019-08-12T10:14:55+07:00
-tags: [
-	sveltejs,
-]
-categories: [
-	svelte,
-	javascript
-]
-draft: true
-series: "svelte"
+categories:
+- svelte
+- javascript
+date: "2019-08-12T10:14:55+07:00"
 description: ""
+draft: true
+series: svelte
+tags:
+- sveltejs
+title: Getting Started With Svelte 3
 ---
 
 

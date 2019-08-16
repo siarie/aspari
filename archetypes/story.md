@@ -1,9 +1,10 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-tags: []
-categories: []
+tags: 
+categories: 
 draft: false
-series: "default"
 author: "siarie"
+series: ""
+description: ""
 ---

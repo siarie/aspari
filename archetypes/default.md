@@ -1,12 +1,9 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-tags: []
-categories: []
+tags: 
+categories: 
 draft: false
 series: ""
 description: ""
-[params]
-	author: "siarie"
-	thumb: ""
 ---

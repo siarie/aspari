@@ -1,14 +1,15 @@
 ---
-title: "Mengenal Lisensi Creative Commons"
-date: 2019-07-16T00:34:20+07:00
-tags: [
-    'license','creativecommons','mengenal creativecommon'
-]
+author: siarie
 categories: []
+date: "2019-07-16T00:34:20+07:00"
+description: mengenal apa itu lisensi creative common
 draft: false
-author: "siarie"
-series: "svelte"
-description: "mengenal apa itu lisensi creative common"
+series: ""
+tags:
+- license
+- creativecommons
+- mengenal creativecommon
+title: Mengenal Lisensi Creative Commons
 ---
 
 Assalamu'alaikum wr. wb.
