@@ -2,34 +2,37 @@
 
 <!-- <div class="flex"> -->
     <div class="box text-center">
-        <div class="image-box">
-                {{ $avatar := "img/siarie.jpg" | absURL }}
-            <img src="{{ $avatar }}" alt="{{ .Title }}">
-        </div>
-        <div class="text">
-            <h2>{{ .Site.Params.name }}<br><span>{{ .Site.Params.professional }}</span></h2>
-        </div>
-        <div class="m-1">
-            <a href="story" class="btn btn-default">Story</a>
-            <a href="about" class="btn btn-default">About</a>
-            <a href="portofolio" class="btn btn-default">Portofolio</a>
-            <a href="friends" class="btn btn-default">Friends</a>
-        </div>
-        <div class="links">
-            <ul class="social">
-                {{ range $name, $link := .Site.Params.social }}
-                {{ $displaName := slicestr $name 2}}
-                <!-- <li><a href="{{ $link | safeURL}}"><i class="fa fa-{{ $displaName }} fa-lg"></i></a></li> -->
-                <li><a href="{{ $link | safeURL}}"><i data-feather="{{ $displaName }}"></i></a></li>
-                {{ end }}
-            </ul>
-            <!-- <hr> -->
-            <!-- <ul class="menu">
-                {{ range .Site.Menus.home }}
-                {{ $text := print .Name | safeHTML}}
-                <li><a href="{{ .URL }}"> {{ $text }} </a></li>
-                {{ end }}
-            </ul> -->
+        <div class="box-wrapper">
+            <div class="image-box">
+                    {{ $avatar := "img/siarie.jpg" | absURL }}
+                <img src="{{ $avatar }}" alt="{{ .Title }}">
+            </div>
+            <div class="text">
+                <h2>{{ .Site.Params.author }}<br><span>{{ .Site.Params.professional }}</span></h2>
+            </div>
+            <div class="m-1">
+                <a href="story" class="btn btn-default">Story</a>
+                <a href="about" class="btn btn-default">About</a>
+                <a href="portofolio" class="btn btn-default">Portofolio</a>
+                <a href="friends" class="btn btn-default">Friends</a>
+            </div>
+            <hr class="hrline" />
+            <div class="links">
+                <ul class="social">
+                    {{ range $name, $link := .Site.Params.social }}
+                    {{ $displaName := slicestr $name 2}}
+                    <!-- <li><a href="{{ $link | safeURL}}"><i class="fa fa-{{ $displaName }} fa-lg"></i></a></li> -->
+                    <li><a href="{{ $link | safeURL}}"><i data-feather="{{ $displaName }}"></i></a></li>
+                    {{ end }}
+                </ul>
+                <!-- <hr> -->
+                <!-- <ul class="menu">
+                    {{ range .Site.Menus.home }}
+                    {{ $text := print .Name | safeHTML}}
+                    <li><a href="{{ .URL }}"> {{ $text }} </a></li>
+                    {{ end }}
+                </ul> -->
+            </div>
         </div>
     </div>
 <!-- </div> -->

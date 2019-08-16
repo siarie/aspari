@@ -11,7 +11,7 @@ pygmentsUseClasses=true
 
 [params]
     author = "Sri Aspari"
-    name = "Sri Aspari"
+    description = "Siarie's Portofolio and Personal Blog"
     professional = "Wanna be a Web Developer"
 
 [params.social]

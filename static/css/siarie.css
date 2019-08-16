@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab|Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
 *{
   box-sizing: border-box;
 }
@@ -18,11 +19,30 @@ body {
 	background: #f7f7f7;
 }
 
-.wrapper {
-  /* display: flex; */
-  /* flex: 1; */
-  /* height: 100vmin; */
-  display: block;
+@media only screen and (min-width: 48em) {
+  .container {
+    width: 87% !important;
+  }
+}  
+@media only screen and (min-width: 62em) {
+  .container {
+    width: 87% !important;
+  }
+}
+@media only screen and (min-width: 75em) {
+  .container {
+    width: 80% !important;
+  }
+}
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  min-height: calc(100vh - 50px);
+}
+.content-wrapper {
+  flex: 1;
 }
 
 .row {
@@ -47,22 +67,19 @@ blockquote {
 .sticky {
   position: sticky;
   top: 0;
+  z-index: 9999;
 }
 /*======================================*/
 /*=============NAVIGATION===============*/
 /*======================================*/
 .navbar {
-  position: sticky;
-  top: 0;
   background: #FFFFFF;
-  display: flex;
   width: 100%;
   padding: 15px 0;
   font-size: 1.7rem;
   box-shadow: 0 .4rem 1rem rgba(0, 0, 0, .05);
   justify-content: space-between;
   font-family: 'Poiret One', cursive;
-  z-index: 999;
 }
 .brand {
   text-decoration: none;
@@ -103,20 +120,29 @@ blockquote {
 /* HOME */
 .box {
   position: fixed;
-  width: 400px;
+  padding: 0 80px;
   height: auto;
   background: #FFFFFF;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   border-radius: 3px;
-  box-shadow: 0 .4rem 1rem rgba(0, 0, 0, .05), 0 0 .1rem rgba(0, 0, 0, .1);
-}
+  box-shadow: 0 .4rem 1rem rgba(0, 0, 0, .05), 0 0 .1rem rgba(0, 0, 0, .1); }
+  @media only screen and (max-width: 60em){
+    .box {
+      width: 100%;
+      padding: 0;
+      height: 100vh;
+    }
+    .box-wrapper {
+      margin-top: 150px;
+    }
+  }
 .image-box {
   margin: 20px auto;
   margin-top: 20px;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: auto;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -140,9 +166,12 @@ blockquote {
   color: #FFFFFF;
   text-transform: none
 }
-.links {
-  border-top: 1px solid #ECECEC;
-  padding: .5rem;
+.hrline {
+  width: 200px;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
 }
 .links ul {
   list-style: none;
@@ -325,11 +354,11 @@ blockquote {
 .pt-4 {padding-top: 40px !important;}
 .pt-5 {padding-top: 50px !important;}
 /* ---PADDING-BOTTOM */
-.pb-1 {padding-bottop: 10px !important;}
-.pb-2 {padding-bottop: 20px !important;}
-.pb-3 {padding-bottop: 30px !important;}
-.pb-4 {padding-bottop: 40px !important;}
-.pb-5 {padding-bottop: 50px !important;}
+.pb-1 {padding-bottom: 10px !important;}
+.pb-2 {padding-bottom: 20px !important;}
+.pb-3 {padding-bottom: 30px !important;}
+.pb-4 {padding-bottom: 40px !important;}
+.pb-5 {padding-bottom: 50px !important;}
 /* ---PADDING-LEFT */
 .pl-1 {padding-left: 10px !important;}
 .pl-2 {padding-left: 20px !important;}
@@ -467,6 +496,7 @@ blockquote {
 footer {
   /* position: absolute;
   bottom: 0; */
+  margin-top: 5rem;
   width: 100%;
   padding:10px;
   text-align: center;

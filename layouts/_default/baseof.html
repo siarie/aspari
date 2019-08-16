@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-    {{ partial "head.html" . }}
-    <body>
-        {{ if not .IsHome }}
-        {{ partial "nav.html" . }}
-        {{end}}
-        
-        <section class="container">
-            <div class="wrapper">
-        {{ block "main" . }}{{ end }}
-            </div>
-        </section>
-   
-{{ partial "footer.html" . }}
+	{{ partial "head.html" . }}
+	<body>
+		{{ if not .IsHome }}
+		{{ partial "nav.html" . }}
+		{{ end }}
+		<div class="content">
+			<main class="content-wrapper">
+				<section class="container">{{ block "main" . }}{{ end }}</section>
+			</main>
+			{{ partial "footer.html" . }}
+		</div>
+	</body>
+</html>

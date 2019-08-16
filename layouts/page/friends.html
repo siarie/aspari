@@ -1,11 +1,5 @@
 {{ define "main" }}
-<div class="row mt-2 text-center">
-  <div class="col-lg-12 ">
-      <p class="" style="color: #555555;font-size: 1.4rem">This is a list of examples of websites created using Jamstack technology.</p>
-  </div>
-</div>
 <div class="row ">
-  
   {{ range .Site.Data.friendlist.friends}}
   {{ $avatar := "img/siarie.jpg" | absURL }}
   <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -19,21 +13,16 @@
       <p class="name">{{.name}}</p>
       <a href="{{ .website }}" class="link">{{ slicestr .website 2 }}</a>
       <ul class="social">
-
         {{ range $name, $link := .social }}
         {{ $icon := slicestr $name 2 }}
         <li><a href="{{$link | safeURL}}"><i data-feather="{{ $icon }}"></i></a></li>
         {{ end }}
-
       </ul>
       </div>
       </div>
-      <!-- <button onclick="window.open('{{.website}}')">View More</button> -->
       </div>
     </div>
   </div>
   {{ end }}
-  
 </div>
-
 {{ end }}
