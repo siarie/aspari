@@ -9,6 +9,4 @@ series: ""
 description: ""
 ---
 
-Dari pada dibilang "Migrasi Linux" lebih tepatnya ini perjalanan saya dari bocah sampai dewasa dengan sebuah alat yg sering mereka sebut *Computer*. pengalaman dari pertama kali melihat, meraba, hingga mengoperasikan komputer.
-
-# SD (Sekolah Dasar)
+# Awal kenal linux

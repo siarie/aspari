@@ -19,6 +19,9 @@ body {
 	background: #f7f7f7;
 }
 
+.container {
+  width: 95%;
+}
 @media only screen and (min-width: 48em) {
   .container {
     width: 87% !important;
@@ -383,16 +386,14 @@ blockquote {
   display: none;
 }
 
-@media (max-width:800px) {
+@media only screen and (max-width:48em) {
   html {
       font-size: 9px;
   }
 
   .nav-btn {
       position: relative;
-      /* top: 15px; */
-      /* right: 15px; */
-      z-index: 9999;
+      z-index: 99999;
       cursor: pointer;
   }
 .navbar > .container {
@@ -419,46 +420,64 @@ blockquote {
       position: fixed;
       width: 100%;
       height: 100vh;
-      background: #fff;
+      background: #DC143C;
       top: 0;
       left: 0;
       opacity: 0;
       visibility: hidden;
-      transition: all .1s ease;
+      font-family: 'Josefin Sans', sans-serif;
+      transition: all .375s;
+  }
+
+  .nav-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: -15px;
+    background: #FFFFFF;
+    transform-origin: 0 0;
+    transform: skew(20deg) translateX(120%);
+    transition: all .275s .1s;
   }
 
   .nav-wrapper .nav-list {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%,-50%);
-      display: block; 
+      display: inline-flex;
+      flex-direction: column;
+      height: 100%; /* Should be 100%, but we have a notice message :D */
+      align-items: flex-start;
+      justify-content: center;
+      transform: translateX(103%) skew(20deg);
   }
   .nav-wrapper .nav-list .nav-item {
-      text-align: center;
-      margin: 25px 0;
+    display: block;
+    margin: 2rem 0;
+    text-align: left;
+    transform: skew(-20deg);
   }
+
+  .nav-wrapper .nav-list .nav-item .nav-link {
+    font-size: 2.5rem;
+    opacity: 0;
+    transform: translateY(-20px);
+}
 
   .nav-wrapper .nav-list li:nth-child(1) .nav-link {
-      transition-delay: .2s;
+      transition: all 275ms 175ms;
   }
   .nav-wrapper .nav-list li:nth-child(2) .nav-link {
-      transition-delay: .3s;
+      transition: all 275ms 225ms;
   }
   .nav-wrapper .nav-list li:nth-child(3) .nav-link {
-      transition-delay: .4s;
+      transition: all 275ms 275ms;
   }
-  .nav-wrapper .nav-list .nav-item .nav-link {
-      font-size: 3rem;
-      opacity: 0;
-      transform: translateX(-20px);
-      transition: all 2s ease;
-  }
-  /* .nav-wrapper .nav-list .nav-item:nth-child(1) .nav-link {
-      transition-delay: .2s;
-  } */
-
-
+  .nav-wrapper .nav-list li:nth-child(4) .nav-link {
+    transition: all 275ms 325ms;
+}
+.nav-wrapper .nav-list li:nth-child(5) .nav-link {
+  transition: all 275ms 375ms;
+}
 }
 
 #nav:checked ~ .nav-wrapper {
@@ -466,9 +485,12 @@ blockquote {
   z-index: 9990;
   visibility: visible;
 }
+#nav:checked ~ .nav-wrapper::before {
+  transform: skew(20deg) translateX(10%);
+}
 #nav:checked ~ .nav-wrapper .nav-list .nav-item .nav-link {
   opacity: 1;
-  transform: translateX(0);
+  transform: translateY(0);
 }
 
 #nav:checked + .nav-btn {
@@ -478,7 +500,6 @@ blockquote {
 
 #nav:checked + .nav-btn i{
   background: #000;
-  transition: transform .2s ease;
 }
 #nav:checked + .nav-btn i:nth-child(1) {
   transform: translateY(5px) rotate(45deg);

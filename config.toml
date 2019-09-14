@@ -20,7 +20,7 @@ pygmentsUseClasses=true
     c-github   = "//github.com/siarie"
     d-send = "//t.me/siarie"
     e-mail   = "mailto:mail@siarie.me"
-    # f-rss     = "/rss.xml"
+    f-rss     = "/index.xml"
 
 
 [permalinks]
@@ -36,9 +36,9 @@ pygmentsUseClasses=true
         weight  = 2
 
     [[menu.main]]
-        name    = "portofolio"
-        pre     = "portofolio"
-        url     = "/portofolio/"
+        name    = "project"
+        pre     = "project"
+        url     = "/project/"
         weight  = 3
 
     [[menu.main]]

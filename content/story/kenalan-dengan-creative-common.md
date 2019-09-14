@@ -9,7 +9,7 @@ tags:
 - license
 - creativecommons
 - mengenal creativecommon
-title: Mengenal Lisensi Creative Commons
+title: Kenalan dengan Creative Commons
 ---
 
 Assalamu'alaikum wr. wb.
