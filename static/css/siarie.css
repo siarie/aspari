@@ -19,6 +19,18 @@ body {
 	background: #f7f7f7;
 }
 
+pre {
+  width: 100%;
+  background: #F0F0F1;
+  border-radius: 5px;
+  padding: 10px;
+  word-wrap: break-word;
+}
+
+pre code {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 .container {
   width: 95%;
 }
@@ -448,7 +460,7 @@ blockquote {
       height: 100%; /* Should be 100%, but we have a notice message :D */
       align-items: flex-start;
       justify-content: center;
-      transform: translateX(103%) skew(20deg);
+      transform: translateX(140%) skew(20deg);
   }
   .nav-wrapper .nav-list .nav-item {
     display: block;
