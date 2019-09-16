@@ -6,27 +6,9 @@
 
 {{ $prismjs := "js/prism.js" | absURL }}
 {{ $feather := "js/feather.js" | absURL }}
-{{ $enligter := "js/EnlighterJS.min.js" | absURL }}
-{{ $mootool := "js/MooTools-Core-compressed.js" | absURL }}
 <script src="{{ $feather }}"></script>
 <script>
 feather.replace()
-</script>
-<!-- Include MooTools Framework -->
-<script type="text/javascript" src="{{ $mootool }}"></script>
-<!-- Include EnlighterJS -->
-<script type="text/javascript" src="{{ $enligter }}" ></script>
-<script>
-    var options = {
-        language : 'html',
-        theme : 'MooTwo',
-        indent : 2,
-        forceTheme: false,
-        rawButton: false,
-        showLinenumbers: false,
-    };
-    // Initialize EnlighterJS - use inline-highlighting only
-    EnlighterJS.Util.Init('pre', 'code', options);
 </script>
 </body>
 </html>
