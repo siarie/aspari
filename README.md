@@ -1,3 +1,3 @@
 # Personal Website
-My Personal website made with @gohugo
-> **Update:** now migrated to Nuxt.js
+My Personal website made with [@gohugo](https://github.com/gohugoio)
+> **Update:** migrated to [@nuxtjs](https://github.com/nuxtjs)
